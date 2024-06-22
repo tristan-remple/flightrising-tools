@@ -1,0 +1,5709 @@
+[
+    {
+        "title": "Training Fields",
+        "startingLevel": 1,
+        "endingLevel": 3,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "Green Lace Anklet",
+                "type": "Apparel",
+                "id": 22413
+            },
+            {
+                "name": "Green Lace Collar",
+                "type": "Apparel",
+                "id": 22411
+            },
+            {
+                "name": "Green Lace Headpiece",
+                "type": "Apparel",
+                "id": 22410
+            },
+            {
+                "name": "Green Lace Ribbons",
+                "type": "Apparel",
+                "id": 22416
+            },
+            {
+                "name": "Green Lace Tail Ornament",
+                "type": "Apparel",
+                "id": 22415
+            },
+            {
+                "name": "Green Lace Waist Frill",
+                "type": "Apparel",
+                "id": 22414
+            },
+            {
+                "name": "Green Lace Wristlet",
+                "type": "Apparel",
+                "id": 22412
+            },
+            {
+                "name": "Green-Edged Claw",
+                "type": "Apparel",
+                "id": 22417
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 11,
+                "currencyPerHour": 14.5
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 106
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 97
+            },
+            "fire": {
+                "percent": 8,
+                "currencyPerHour": 100
+            },
+            "arcane": {
+                "percent": 9,
+                "currencyPerHour": 103
+            },
+            "plague": {
+                "percent": 8,
+                "currencyPerHour": 97
+            },
+            "earth": {
+                "percent": 8,
+                "currencyPerHour": 97
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 100
+            },
+            "shadow": {
+                "percent": 8,
+                "currencyPerHour": 106
+            },
+            "wind": {
+                "percent": 8,
+                "currencyPerHour": 110
+            },
+            "water": {
+                "percent": 8,
+                "currencyPerHour": 106
+            },
+            "nature": {
+                "percent": 8,
+                "currencyPerHour": 110
+            }
+        },
+        "food": {
+            "insect": 1020,
+            "meat": 674,
+            "seafood": 760,
+            "plant": 892
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Amaranth Moth",
+                    "type": "Familiar",
+                    "id": 376
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Bluelight Chipskink",
+                    "type": "Familiar",
+                    "id": 22406
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Brown-Spotted Mith",
+                    "type": "Familiar",
+                    "id": 22383
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Bumble",
+                    "type": "Familiar",
+                    "id": 2394
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Ceanothus Brawler",
+                    "type": "Familiar",
+                    "id": 22376
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Chipskink",
+                    "type": "Familiar",
+                    "id": 22407
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Coral Carpenter",
+                    "type": "Familiar",
+                    "id": 2393
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Crimson Emperor",
+                    "type": "Familiar",
+                    "id": 1145
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Dark-Tufted Sparrowmouse",
+                    "type": "Familiar",
+                    "id": 3070
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Death's-Head Stag",
+                    "type": "Familiar",
+                    "id": 1144
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Ember Mouse",
+                    "type": "Familiar",
+                    "id": 378
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Emerald Webwing",
+                    "type": "Familiar",
+                    "id": 377
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Frosted Pocketmouse",
+                    "type": "Familiar",
+                    "id": 22388
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Glowing Pocket Mouse",
+                    "type": "Familiar",
+                    "id": 341
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Leafy Moth",
+                    "type": "Familiar",
+                    "id": 339
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Luna Mith",
+                    "type": "Familiar",
+                    "id": 338
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Mith Bruiser",
+                    "type": "Familiar",
+                    "id": 22377
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Primrose Mith",
+                    "type": "Familiar",
+                    "id": 22382
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Ragepuff",
+                    "type": "Familiar",
+                    "id": 22395
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Ruby Webwing",
+                    "type": "Familiar",
+                    "id": 408
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Satin Pocketmouse",
+                    "type": "Familiar",
+                    "id": 22389
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Silky Webwing",
+                    "type": "Familiar",
+                    "id": 22400
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Sweetpuff",
+                    "type": "Familiar",
+                    "id": 22394
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Webwing Alpha",
+                    "type": "Familiar",
+                    "id": 22401
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Yellow-Throated Sparrowmouse",
+                    "type": "Familiar",
+                    "id": 3071
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "Black Tulip",
+                    "type": "Plant",
+                    "id": 830
+                },
+                "target": {
+                    "name": "Black Tulip Flowerfall",
+                    "type": "Apparel",
+                    "id": 1749
+                },
+                "dropsFrom": [
+                    "Coral Carpenter",
+                    "Dark Sparrowmouse"
+                ],
+                "numberRequired": 250,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "White-Eared Hummingbird",
+                    "type": "Meat",
+                    "id": 106
+                },
+                "target": {
+                    "name": "Black-wing Hummingbird",
+                    "type": "Familiar",
+                    "id": 670
+                },
+                "dropsFrom": [
+                    "Emerald Webwing"
+                ],
+                "numberRequired": 175,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Emerald Webwing",
+                    "type": "Familiar",
+                    "id": 377
+                },
+                "target": {
+                    "name": "Emerald Green Satin Tunic",
+                    "type": "Apparel",
+                    "id": 1868
+                },
+                "dropsFrom": [
+                    "Emerald Webwing"
+                ],
+                "numberRequired": 2,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Moth-Eaten Rug",
+                            "type": "Dragonmade",
+                            "id": 199
+                        },
+                        "aquisition": {
+                            "method": "Scavenging",
+                            "level": 1,
+                            "location": [
+                                "Wind",
+                                "Ice",
+                                "Nature"
+                            ]
+                        },
+                        "numberRequired": 150
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Amaranth Moth",
+                    "type": "Familiar",
+                    "id": 376
+                },
+                "target": {
+                    "name": "Pink Wooly Tail",
+                    "type": "Apparel",
+                    "id": 2854
+                },
+                "dropsFrom": [
+                    "Amaranth Moth"
+                ],
+                "numberRequired": 2,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Umbral Catfish",
+                            "type": "Seafood",
+                            "id": 2391
+                        },
+                        "aquisition": {
+                            "method": "Coliseum",
+                            "level": 8,
+                            "location": [
+                                "Scorched Forest"
+                            ]
+                        },
+                        "numberRequired": 40
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Hardy Antler",
+                    "type": "Organics",
+                    "id": 15119
+                },
+                "target": {
+                    "name": "Raven Sylvan Lattice",
+                    "type": "Apparel",
+                    "id": 15747
+                },
+                "dropsFrom": [
+                    "Crimson Emperor"
+                ],
+                "numberRequired": 60,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Lunar Lacewing",
+                            "type": "Insect",
+                            "id": 14892
+                        },
+                        "aquisition": {
+                            "method": "Insect Catching",
+                            "level": 27,
+                            "location": [
+                                "Wind",
+                                "Water",
+                                "Shadow",
+                                "Light"
+                            ]
+                        },
+                        "numberRequired": 35
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "White Cabbage Butterfly",
+                    "type": "Insect",
+                    "id": 53
+                },
+                "target": {
+                    "name": "White and Gold Flair Scarf",
+                    "type": "Apparel",
+                    "id": 3284
+                },
+                "dropsFrom": [
+                    "Leafy Moth"
+                ],
+                "numberRequired": 60,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "White Pawn",
+                            "type": "Trinket",
+                            "id": 201
+                        },
+                        "aquisition": {
+                            "method": "Scavenging",
+                            "level": 2,
+                            "location": [
+                                "Wind",
+                                "Water",
+                                "Light",
+                                "Earth",
+                                "Ice",
+                                "Nature"
+                            ]
+                        },
+                        "numberRequired": 175
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "White Cabbage Butterfly",
+                    "type": "Insect",
+                    "id": 53
+                },
+                "target": {
+                    "name": "Raven Sylvan Bracelets",
+                    "type": "Apparel",
+                    "id": 15706
+                },
+                "dropsFrom": [
+                    "Leafy Moth"
+                ],
+                "numberRequired": 70,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Unnatural Leg Bones",
+                            "type": "Organics",
+                            "id": 4803
+                        },
+                        "aquisition": {
+                            "method": "Coliseum",
+                            "level": 20,
+                            "location": [
+                                "Boreal Wood"
+                            ]
+                        },
+                        "numberRequired": 35
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Firestarter",
+                    "type": "Organics",
+                    "id": 3392
+                },
+                "target": {
+                    "name": "Cinderkelp Loach",
+                    "type": "Familiar",
+                    "id": 18981
+                },
+                "dropsFrom": [
+                    "Ember Mouse"
+                ],
+                "numberRequired": 25,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Flametail Loach",
+                            "type": "Seafood",
+                            "id": 15577
+                        },
+                        "aquisition": {
+                            "method": "Coliseum",
+                            "level": 25,
+                            "location": [
+                                "Golem Workshop"
+                            ]
+                        },
+                        "numberRequired": 25
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Firestarter",
+                    "type": "Organics",
+                    "id": 3392
+                },
+                "target": {
+                    "name": "Black Lace Tail Ornament",
+                    "type": "Apparel",
+                    "id": 21296
+                },
+                "dropsFrom": [
+                    "Ember Mouse"
+                ],
+                "numberRequired": 20,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Coral Grouse",
+                            "type": "Meat",
+                            "id": 14443
+                        },
+                        "aquisition": {
+                            "method": "Coliseum",
+                            "level": 6,
+                            "location": [
+                                "Woodland Path"
+                            ]
+                        },
+                        "numberRequired": 30
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Chipskink Tail",
+                    "type": "Organics",
+                    "id": 22403
+                },
+                "target": {
+                    "name": "Onyx Seraph Armpiece",
+                    "type": "Apparel",
+                    "id": 24062
+                },
+                "dropsFrom": [
+                    "Chipskink"
+                ],
+                "numberRequired": 25,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Flamerest Embers",
+                            "type": "Organics",
+                            "id": 21375
+                        },
+                        "aquisition": {
+                            "method": "Coliseum",
+                            "level": 18,
+                            "location": [
+                                "Volcanic Vents"
+                            ]
+                        },
+                        "numberRequired": 25
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Leafy Moth",
+                    "type": "Familiar",
+                    "id": 339
+                },
+                "target": {
+                    "name": "Pink Wooly Antennae",
+                    "type": "Apparel",
+                    "id": 2844
+                },
+                "dropsFrom": [
+                    "Leafy Moth"
+                ],
+                "numberRequired": 1,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Manaweed",
+                            "type": "Plant",
+                            "id": 13
+                        },
+                        "aquisition": {
+                            "method": "Foraging",
+                            "level": 1,
+                            "location": [
+                                "Fire",
+                                "Arcane"
+                            ]
+                        },
+                        "numberRequired": 65
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Luna Mith",
+                    "type": "Familiar",
+                    "id": 338
+                },
+                "target": {
+                    "name": "Pink Wooly Coat",
+                    "type": "Apparel",
+                    "id": 2849
+                },
+                "dropsFrom": [
+                    "Luna Mith"
+                ],
+                "numberRequired": 1,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Rose Quartz",
+                            "type": "Minerals & Ores",
+                            "id": 968
+                        },
+                        "aquisition": {
+                            "method": "Digging",
+                            "level": 12,
+                            "location": [
+                                "Light",
+                                "Arcane"
+                            ]
+                        },
+                        "numberRequired": 40
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Glowing Pocket Bauble",
+                    "type": "Organics",
+                    "id": 3391
+                },
+                "target": {
+                    "name": "Tendril Loach",
+                    "type": "Familiar",
+                    "id": 18982
+                },
+                "dropsFrom": [
+                    "Glowing Pocket Mouse"
+                ],
+                "numberRequired": 25,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Bluespot Weather Loach",
+                            "type": "Seafood",
+                            "id": 15576
+                        },
+                        "aquisition": {
+                            "method": "Coliseum",
+                            "level": 25,
+                            "location": [
+                                "Golem Workshop"
+                            ]
+                        },
+                        "numberRequired": 25
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Micro Deer",
+                    "type": "Meat",
+                    "id": 8107
+                },
+                "target": {
+                    "name": "Tricolor Yapper",
+                    "type": "Familiar",
+                    "id": 16253
+                },
+                "dropsFrom": [
+                    "Crimson Emperor"
+                ],
+                "numberRequired": 40,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Black Wolf Pelt",
+                            "type": "Organics",
+                            "id": 3507
+                        },
+                        "aquisition": {
+                            "method": "Coliseum",
+                            "level": 20,
+                            "location": [
+                                "Boreal Wood"
+                            ]
+                        },
+                        "numberRequired": 25
+                    }
+                ]
+            },
+            {
+                "item": {
+                    "name": "Rotting Leather",
+                    "type": "Dragonmade",
+                    "id": 256
+                },
+                "target": {
+                    "name": "Journeyman Satchels",
+                    "type": "Apparel",
+                    "id": 690
+                },
+                "dropsFrom": [
+                    "Deaths-Head Stag"
+                ],
+                "numberRequired": 100,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Moldy Leather",
+                            "type": "Dragonmade",
+                            "id": 255
+                        },
+                        "aquisition": {
+                            "method": "Scavenging",
+                            "level": 1,
+                            "location": [
+                                "Water",
+                                "Nature"
+                            ]
+                        },
+                        "numberRequired": 100
+                    }
+                ]
+            }
+        ],
+        "baldwin": [
+            {
+                "item": {
+                    "name": "Florist's Satchel",
+                    "type": "Trinkets",
+                    "id": 22378
+                },
+                "target": {
+                    "name": "Poisonous Rose Thorn Arm Tangle",
+                    "type": "Apparel",
+                    "id": 22665
+                },
+                "dropsFrom": [
+                    "Primrose Mith"
+                ],
+                "numberRequired": 5,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Herbalist's Satchel",
+                    "type": "Trinkets",
+                    "id": 22379
+                },
+                "target": {
+                    "name": "Poisonous Rose Thorn Banner",
+                    "type": "Apparel",
+                    "id": 22666
+                },
+                "dropsFrom": [
+                    "Brown-Spotted Mith"
+                ],
+                "numberRequired": 5,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Blue Rose",
+                    "type": "Plant",
+                    "id": 22381
+                },
+                "target": {
+                    "name": "Poisonous Rose Thorn Crown",
+                    "type": "Apparel",
+                    "id": 22668
+                },
+                "dropsFrom": [
+                    "Brown-Spotted Mith"
+                ],
+                "numberRequired": 5,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Pale Pink Rose",
+                    "type": "Plant",
+                    "id": 22380
+                },
+                "target": {
+                    "name": "Poisonous Rose Thorn Collar",
+                    "type": "Apparel",
+                    "id": 22667
+                },
+                "dropsFrom": [
+                    "Primrose Mith"
+                ],
+                "numberRequired": 5,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Frosted Violets",
+                    "type": "Plant",
+                    "id": 22386
+                },
+                "target": {
+                    "name": "Poisonous Rose Thorn Gloves",
+                    "type": "Apparel",
+                    "id": 22669
+                },
+                "dropsFrom": [
+                    "Frosted Pocketmouse"
+                ],
+                "numberRequired": 5,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Ragepuff Down",
+                    "type": "Organics",
+                    "id": 22391
+                },
+                "target": {
+                    "name": "Poisonous Rose Thorn Stockings",
+                    "type": "Apparel",
+                    "id": 22671
+                },
+                "dropsFrom": [
+                    "Ragepuff"
+                ],
+                "numberRequired": 5,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Sweetpuff Feather",
+                    "type": "Organics",
+                    "id": 22390
+                },
+                "target": {
+                    "name": "Poisonous Rose Thorn Leg Tangle",
+                    "type": "Apparel",
+                    "id": 22670
+                },
+                "dropsFrom": [
+                    "Sweetpuff"
+                ],
+                "numberRequired": 5,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Display Plumes",
+                    "type": "Organics",
+                    "id": 22397
+                },
+                "target": {
+                    "name": "Poisonous Rose Thorn Wing Tangle",
+                    "type": "Apparel",
+                    "id": 22673
+                },
+                "dropsFrom": [
+                    "Webwing Alpha"
+                ],
+                "numberRequired": 5,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Silken Feathers",
+                    "type": "Organics",
+                    "id": 22396
+                },
+                "target": {
+                    "name": "Poisonous Rose Thorn Tail Tangle",
+                    "type": "Apparel",
+                    "id": 22672
+                },
+                "dropsFrom": [
+                    "Silky Webwing"
+                ],
+                "numberRequired": 5,
+                "otherRequirements": []
+            },
+            {
+                "item": {
+                    "name": "Silken Feathers",
+                    "type": "Organics",
+                    "id": 22396
+                },
+                "target": {
+                    "name": "Glowing Mint Leg Bow",
+                    "type": "Apparel",
+                    "id": 27914
+                },
+                "dropsFrom": [
+                    "Silky Webwing"
+                ],
+                "numberRequired": 10,
+                "otherRequirements": []
+            }
+        ]
+    },
+    {
+        "title": "Woodland Path",
+        "startingLevel": 4,
+        "endingLevel": 6,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 19,
+                "currencyPerHour": 18.4
+            },
+            "light": {
+                "percent": 7,
+                "currencyPerHour": 149
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 142
+            },
+            "fire": {
+                "percent": 8,
+                "currencyPerHour": 142
+            },
+            "arcane": {
+                "percent": 7,
+                "currencyPerHour": 139
+            },
+            "plague": {
+                "percent": 7,
+                "currencyPerHour": 139
+            },
+            "earth": {
+                "percent": 7,
+                "currencyPerHour": 139
+            },
+            "ice": {
+                "percent": 7,
+                "currencyPerHour": 139
+            },
+            "shadow": {
+                "percent": 7,
+                "currencyPerHour": 149
+            },
+            "wind": {
+                "percent": 6,
+                "currencyPerHour": 140
+            },
+            "water": {
+                "percent": 7,
+                "currencyPerHour": 149
+            },
+            "nature": {
+                "percent": 7,
+                "currencyPerHour": 149
+            }
+        },
+        "food": {
+            "insect": 160,
+            "meat": 968,
+            "seafood": 640,
+            "plant": 656
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Aurelian Porcupine",
+                    "type": "Familiar",
+                    "id": 46372
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Autumn Dryad",
+                    "type": "Familiar",
+                    "id": 358
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Bamboo Phytocat",
+                    "type": "Familiar",
+                    "id": 1149
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Basilisk",
+                    "type": "Familiar",
+                    "id": 381
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Blooming Strangler",
+                    "type": "Familiar",
+                    "id": 597
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Bluefin Charger",
+                    "type": "Familiar",
+                    "id": 616
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Clown Charger",
+                    "type": "Familiar",
+                    "id": 617
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Cockatrice",
+                    "type": "Familiar",
+                    "id": 340
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Coral Basilisk",
+                    "type": "Familiar",
+                    "id": 14441
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Dryad",
+                    "type": "Familiar",
+                    "id": 357
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Featherfoot Spingy",
+                    "type": "Familiar",
+                    "id": 46378
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Flying Fawn",
+                    "type": "Familiar",
+                    "id": 46380
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Glorious Dayjar",
+                    "type": "Familiar",
+                    "id": 46377
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Greenroot Janustrap",
+                    "type": "Familiar",
+                    "id": 5177
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Grouse Basilisk",
+                    "type": "Familiar",
+                    "id": 14442
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Janustrap",
+                    "type": "Familiar",
+                    "id": 5178
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Moonglow Nightjar",
+                    "type": "Familiar",
+                    "id": 46376
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Sakura Owl",
+                    "type": "Familiar",
+                    "id": 598
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Scarlet-Crested Woodoon",
+                    "type": "Familiar",
+                    "id": 43944
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Spongy Spingy",
+                    "type": "Familiar",
+                    "id": 46379
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Spring Glade Lord",
+                    "type": "Familiar",
+                    "id": 46374
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Strangler",
+                    "type": "Familiar",
+                    "id": 596
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Trumpet Porcupine",
+                    "type": "Familiar",
+                    "id": 46373
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Velvet Fawn",
+                    "type": "Familiar",
+                    "id": 46381
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Wildwood Owl",
+                    "type": "Familiar",
+                    "id": 599
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Winter Glade Lord",
+                    "type": "Familiar",
+                    "id": 46375
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Woodoon",
+                    "type": "Familiar",
+                    "id": 43943
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "Blushing Pink Rose",
+                    "type": "Apparel",
+                    "id": 751
+                },
+                "target": {
+                    "name": "Sakura Flowerfall",
+                    "type": "Apparel",
+                    "id": 1752
+                },
+                "dropsFrom": [
+                    "Blooming Strangler",
+                    "Sakura Owl"
+                ],
+                "numberRequired": 4,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "Sakura Owl",
+                            "type": "Familiar",
+                            "id": 598
+                        },
+                        "aquisition": {
+                            "method": "Coliseum",
+                            "level": 5,
+                            "location": [
+                                "Woodland Path"
+                            ]
+                        },
+                        "numberRequired": 1
+                    }
+                ]
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Scorched Forest",
+        "startingLevel": 7,
+        "endingLevel": 8,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 18,
+                "currencyPerHour": 17.6
+            },
+            "light": {
+                "percent": 3,
+                "currencyPerHour": 97
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 127
+            },
+            "fire": {
+                "percent": 19,
+                "currencyPerHour": 200
+            },
+            "arcane": {
+                "percent": 5,
+                "currencyPerHour": 107
+            },
+            "plague": {
+                "percent": 9,
+                "currencyPerHour": 133
+            },
+            "earth": {
+                "percent": 8,
+                "currencyPerHour": 127
+            },
+            "ice": {
+                "percent": 7,
+                "currencyPerHour": 120
+            },
+            "shadow": {
+                "percent": 7,
+                "currencyPerHour": 128
+            },
+            "wind": {
+                "percent": 8,
+                "currencyPerHour": 136
+            },
+            "water": {
+                "percent": 7,
+                "currencyPerHour": 132
+            },
+            "nature": {
+                "percent": 6,
+                "currencyPerHour": 120
+            }
+        },
+        "food": {
+            "insect": 612,
+            "meat": 528,
+            "seafood": 484,
+            "plant": 500
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Augite Protector",
+                    "type": "Familiar",
+                    "id": 20030
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Banded Owlcat",
+                    "type": "Familiar",
+                    "id": 600
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Centaur Archer",
+                    "type": "Familiar",
+                    "id": 6336
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Clown Charger",
+                    "type": "Familiar",
+                    "id": 617
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Crowned Bonepriest",
+                    "type": "Familiar",
+                    "id": 632
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Extinguished Jackalope",
+                    "type": "Familiar",
+                    "id": 12523
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Moss-Covered Golem",
+                    "type": "Familiar",
+                    "id": 20029
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Painted Centaur",
+                    "type": "Familiar",
+                    "id": 6338
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Rambra",
+                    "type": "Familiar",
+                    "id": 607
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Red-Winged Owlcat",
+                    "type": "Familiar",
+                    "id": 601
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Searing Jackalope",
+                    "type": "Familiar",
+                    "id": 12522
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Smoke Gyre",
+                    "type": "Familiar",
+                    "id": 413
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Steam Gyre",
+                    "type": "Familiar",
+                    "id": 406
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Sandswept Delta",
+        "startingLevel": 9,
+        "endingLevel": 9,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 15,
+                "currencyPerHour": 16.4
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 127
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 97
+            },
+            "fire": {
+                "percent": 8,
+                "currencyPerHour": 106
+            },
+            "arcane": {
+                "percent": 8,
+                "currencyPerHour": 117
+            },
+            "plague": {
+                "percent": 8,
+                "currencyPerHour": 117
+            },
+            "earth": {
+                "percent": 8,
+                "currencyPerHour": 117
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 117
+            },
+            "shadow": {
+                "percent": 8,
+                "currencyPerHour": 127
+            },
+            "wind": {
+                "percent": 8,
+                "currencyPerHour": 127
+            },
+            "water": {
+                "percent": 8,
+                "currencyPerHour": 127
+            },
+            "nature": {
+                "percent": 8,
+                "currencyPerHour": 127
+            }
+        },
+        "food": {
+            "insect": 763,
+            "meat": 496,
+            "seafood": 267,
+            "plant": 636
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Buff Dunerunner",
+                    "type": "Familiar",
+                    "id": 38495
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Carmine Serthis",
+                    "type": "Familiar",
+                    "id": 419
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Charcoal Kitsune",
+                    "type": "Familiar",
+                    "id": 38503
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Dunerunner",
+                    "type": "Familiar",
+                    "id": 38496
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Dusk Fuiran",
+                    "type": "Familiar",
+                    "id": 38551
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Fan Scorpion",
+                    "type": "Familiar",
+                    "id": 15129
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Fennec Kitsune",
+                    "type": "Familiar",
+                    "id": 38502
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Fuiran",
+                    "type": "Familiar",
+                    "id": 904
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Gaboon Viperpillar",
+                    "type": "Familiar",
+                    "id": 38619
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Greatshell",
+                    "type": "Familiar",
+                    "id": 2420
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Iridescent Scaleback",
+                    "type": "Familiar",
+                    "id": 819
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Masked Gryphon",
+                    "type": "Familiar",
+                    "id": 38528
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Nightsky Fuiran",
+                    "type": "Familiar",
+                    "id": 905
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Opheodrys Serthis",
+                    "type": "Familiar",
+                    "id": 418
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Peacock Scorpion",
+                    "type": "Familiar",
+                    "id": 651
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Prickly Strangler",
+                    "type": "Familiar",
+                    "id": 38493
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Redtail Gryphon",
+                    "type": "Familiar",
+                    "id": 38527
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Sanddrift Fuiran",
+                    "type": "Familiar",
+                    "id": 38552
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Scaleback",
+                    "type": "Familiar",
+                    "id": 820
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Serthis Alchemist",
+                    "type": "Familiar",
+                    "id": 6333
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Serthis Potionmaster",
+                    "type": "Familiar",
+                    "id": 6332
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Shadow Serpent",
+                    "type": "Familiar",
+                    "id": 407
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Shattered Serpent",
+                    "type": "Familiar",
+                    "id": 359
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Storm Seeker",
+                    "type": "Familiar",
+                    "id": 373
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Tricolor Viperpillar",
+                    "type": "Familiar",
+                    "id": 38620
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Silk-Strewn Wreckage",
+        "startingLevel": 10,
+        "endingLevel": 10,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 17,
+                "currencyPerHour": 17
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 191
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 0
+            },
+            "fire": {
+                "percent": 8,
+                "currencyPerHour": 0
+            },
+            "arcane": {
+                "percent": 4,
+                "currencyPerHour": 95
+            },
+            "plague": {
+                "percent": 4,
+                "currencyPerHour": 93
+            },
+            "earth": {
+                "percent": 8,
+                "currencyPerHour": 119
+            },
+            "ice": {
+                "percent": 4,
+                "currencyPerHour": 95
+            },
+            "shadow": {
+                "percent": 8,
+                "currencyPerHour": 129
+            },
+            "wind": {
+                "percent": 8,
+                "currencyPerHour": 129
+            },
+            "water": {
+                "percent": 4,
+                "currencyPerHour": 98
+            },
+            "nature": {
+                "percent": 8,
+                "currencyPerHour": 129
+            }
+        },
+        "food": {
+            "insect": 0,
+            "meat": 0,
+            "seafood": 0,
+            "plant": 0
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Assassin Bug",
+                    "type": "Familiar",
+                    "id": 51927
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Blue Hamble",
+                    "type": "Familiar",
+                    "id": 51929
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Catercroak",
+                    "type": "Familiar",
+                    "id": 51931
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Climbing Catercroak",
+                    "type": "Familiar",
+                    "id": 51932
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Colony Killer",
+                    "type": "Familiar",
+                    "id": 51928
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Fire Grub Swarm",
+                    "type": "Familiar",
+                    "id": 51933
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Flighted Molecricket",
+                    "type": "Familiar",
+                    "id": 51949
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Glow Worm Swarm",
+                    "type": "Familiar",
+                    "id": 51934
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Hornworm Viperpillar",
+                    "type": "Familiar",
+                    "id": 51935
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Illumination Crecko",
+                    "type": "Familiar",
+                    "id": 51939
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Jelly Jewel",
+                    "type": "Familiar",
+                    "id": 51941
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Maple Bagwitch",
+                    "type": "Familiar",
+                    "id": 51944
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Midnight Lantern",
+                    "type": "Familiar",
+                    "id": 51945
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Mith Loremaster",
+                    "type": "Familiar",
+                    "id": 51947
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Mith Spellstealer",
+                    "type": "Familiar",
+                    "id": 51948
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Moth Keeper",
+                    "type": "Familiar",
+                    "id": 51946
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Nightsong Bard",
+                    "type": "Familiar",
+                    "id": 51950
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Regal Silkmith",
+                    "type": "Familiar",
+                    "id": 51951
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Roving Jelly Jewel",
+                    "type": "Familiar",
+                    "id": 51942
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Scarlet Hamble",
+                    "type": "Familiar",
+                    "id": 51930
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Shy Bagwitch",
+                    "type": "Familiar",
+                    "id": 51943
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Silkmith",
+                    "type": "Familiar",
+                    "id": 51952
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Striped Crecko",
+                    "type": "Familiar",
+                    "id": 51940
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Sunset Buttersnake",
+                    "type": "Familiar",
+                    "id": 51953
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Velvet Buttersnake",
+                    "type": "Familiar",
+                    "id": 51954
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Watchful Viperpillar",
+                    "type": "Familiar",
+                    "id": 51936
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Blooming Grove",
+        "startingLevel": 11,
+        "endingLevel": 11,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 13,
+                "currencyPerHour": 26
+            },
+            "light": {
+                "percent": 5,
+                "currencyPerHour": 89
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 100
+            },
+            "fire": {
+                "percent": 80,
+                "currencyPerHour": 100
+            },
+            "arcane": {
+                "percent": 8,
+                "currencyPerHour": 107
+            },
+            "plague": {
+                "percent": 8,
+                "currencyPerHour": 110
+            },
+            "earth": {
+                "percent": 8,
+                "currencyPerHour": 110
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 110
+            },
+            "shadow": {
+                "percent": 5,
+                "currencyPerHour": 89
+            },
+            "wind": {
+                "percent": 8,
+                "currencyPerHour": 120
+            },
+            "water": {
+                "percent": 4,
+                "currencyPerHour": 86
+            },
+            "nature": {
+                "percent": 16,
+                "currencyPerHour": 183
+            }
+        },
+        "food": {
+            "insect": 690,
+            "meat": 832,
+            "seafood": 702,
+            "plant": 1008
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Alstroemeria Fox",
+                    "type": "Familiar",
+                    "id": 23849
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Aspen Gall Dryad",
+                    "type": "Familiar",
+                    "id": 23855
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Barkskin Watcher",
+                    "type": "Familiar",
+                    "id": 23856
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Buttercup Strangler",
+                    "type": "Familiar",
+                    "id": 23873
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Five-toed Pilco",
+                    "type": "Familiar",
+                    "id": 23867
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Flora Cerdae",
+                    "type": "Familiar",
+                    "id": 23861
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Flowering Pohip",
+                    "type": "Familiar",
+                    "id": 23842
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Frostbite Dryad",
+                    "type": "Familiar",
+                    "id": 23823
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Fungi Sage",
+                    "type": "Familiar",
+                    "id": 23880
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Grove Piper",
+                    "type": "Familiar",
+                    "id": 23832
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Lilium Floron",
+                    "type": "Familiar",
+                    "id": 23810
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Maned Cerdae",
+                    "type": "Familiar",
+                    "id": 23862
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Moonlight Fungi",
+                    "type": "Familiar",
+                    "id": 23879
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Mossy Pohip",
+                    "type": "Familiar",
+                    "id": 23844
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Myosotis Fox",
+                    "type": "Familiar",
+                    "id": 23850
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Palefoot Tadhop",
+                    "type": "Familiar",
+                    "id": 23891
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Petalmane Floron",
+                    "type": "Familiar",
+                    "id": 23811
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Rosaline Strangler",
+                    "type": "Familiar",
+                    "id": 23874
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Ruffletail Tadhop",
+                    "type": "Familiar",
+                    "id": 23892
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Spotted Faun",
+                    "type": "Familiar",
+                    "id": 23833
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Sunbeam Dryad",
+                    "type": "Familiar",
+                    "id": 23822
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Terra Tortoise",
+                    "type": "Familiar",
+                    "id": 23886
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Travelling Garden",
+                    "type": "Familiar",
+                    "id": 23885
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Venomtooth Pilco",
+                    "type": "Familiar",
+                    "id": 23868
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "White Rot Deer",
+                    "type": "Familiar",
+                    "id": 23816
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Wood Ear Deer",
+                    "type": "Familiar",
+                    "id": 23817
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Forgotten Cave",
+        "startingLevel": 12,
+        "endingLevel": 12,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 16,
+                "currencyPerHour": 20.4
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 115
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 106
+            },
+            "fire": {
+                "percent": 4,
+                "currencyPerHour": 85
+            },
+            "arcane": {
+                "percent": 8,
+                "currencyPerHour": 108
+            },
+            "plague": {
+                "percent": 8,
+                "currencyPerHour": 106
+            },
+            "earth": {
+                "percent": 16,
+                "currencyPerHour": 156
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 106
+            },
+            "shadow": {
+                "percent": 8,
+                "currencyPerHour": 115
+            },
+            "wind": {
+                "percent": 4,
+                "currencyPerHour": 90
+            },
+            "water": {
+                "percent": 8,
+                "currencyPerHour": 119
+            },
+            "nature": {
+                "percent": 4,
+                "currencyPerHour": 90
+            }
+        },
+        "food": {
+            "insect": 683,
+            "meat": 647,
+            "seafood": 518,
+            "plant": 730
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Ancient Fungus",
+                    "type": "Familiar",
+                    "id": 356
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Bell Goat",
+                    "type": "Familiar",
+                    "id": 36298
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Blue Dragon Reef Snail",
+                    "type": "Familiar",
+                    "id": 628
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Blueband Duelist",
+                    "type": "Familiar",
+                    "id": 14547
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Bramble Guardian",
+                    "type": "Familiar",
+                    "id": 618
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Burrow Bear",
+                    "type": "Familiar",
+                    "id": 36300
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Cave Lantern",
+                    "type": "Familiar",
+                    "id": 36302
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Centaur Berserker",
+                    "type": "Familiar",
+                    "id": 14569
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Citrine Cave Jewel",
+                    "type": "Familiar",
+                    "id": 648
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Corpse Cleaner",
+                    "type": "Familiar",
+                    "id": 631
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Creeping Cluster",
+                    "type": "Familiar",
+                    "id": 36303
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Crimson Reef Snail",
+                    "type": "Familiar",
+                    "id": 629
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Cursed Bat",
+                    "type": "Familiar",
+                    "id": 379
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Deepmine Aardvark",
+                    "type": "Familiar",
+                    "id": 14558
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Dire Claw",
+                    "type": "Familiar",
+                    "id": 36301
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Djamor Bat",
+                    "type": "Familiar",
+                    "id": 36304
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Dwarf Truffle",
+                    "type": "Familiar",
+                    "id": 417
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Emerald Cave Jewel",
+                    "type": "Familiar",
+                    "id": 649
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Ostreatus Bat",
+                    "type": "Familiar",
+                    "id": 36305
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Parasitic Fungus",
+                    "type": "Familiar",
+                    "id": 619
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Peacevine Aardvark",
+                    "type": "Familiar",
+                    "id": 14560
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Polarized Bell Goat",
+                    "type": "Familiar",
+                    "id": 36299
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Runic Bat",
+                    "type": "Familiar",
+                    "id": 410
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Stonestomp Spearmaiden",
+                    "type": "Familiar",
+                    "id": 36307
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Swiftfoot Slayer",
+                    "type": "Familiar",
+                    "id": 14570
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Swiftstride Soldier",
+                    "type": "Familiar",
+                    "id": 619
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Venomblade Assassin",
+                    "type": "Familiar",
+                    "id": 14546
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Bamboo Falls",
+        "startingLevel": 13,
+        "endingLevel": 13,
+        "scene": false,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 13,
+                "currencyPerHour": 25.2
+            },
+            "light": {
+                "percent": 6,
+                "currencyPerHour": 96
+            },
+            "lightning": {
+                "percent": 9,
+                "currencyPerHour": 106
+            },
+            "fire": {
+                "percent": 9,
+                "currencyPerHour": 106
+            },
+            "arcane": {
+                "percent": 9,
+                "currencyPerHour": 106
+            },
+            "plague": {
+                "percent": 5,
+                "currencyPerHour": 85
+            },
+            "earth": {
+                "percent": 7,
+                "currencyPerHour": 98
+            },
+            "ice": {
+                "percent": 4,
+                "currencyPerHour": 77
+            },
+            "shadow": {
+                "percent": 6,
+                "currencyPerHour": 96
+            },
+            "wind": {
+                "percent": 13,
+                "currencyPerHour": 145
+            },
+            "water": {
+                "percent": 12,
+                "currencyPerHour": 140
+            },
+            "nature": {
+                "percent": 7,
+                "currencyPerHour": 101
+            }
+        },
+        "food": {
+            "insect": 180,
+            "meat": 854,
+            "seafood": 876,
+            "plant": 910
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Baku",
+                    "type": "Familiar",
+                    "id": 405
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Blacktalon Striker",
+                    "type": "Familiar",
+                    "id": 6334
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Carmine Serthis",
+                    "type": "Familiar",
+                    "id": 419
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Dreameater",
+                    "type": "Familiar",
+                    "id": 415
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Ethereal Trickster",
+                    "type": "Familiar",
+                    "id": 416
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Fungalhoof Qiriq",
+                    "type": "Familiar",
+                    "id": 2258
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Gale Wolf",
+                    "type": "Familiar",
+                    "id": 611
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Hainu",
+                    "type": "Familiar",
+                    "id": 1034
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Mantled Foo",
+                    "type": "Familiar",
+                    "id": 11148
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Opheodrys Serthis",
+                    "type": "Familiar",
+                    "id": 418
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Raptorik Warrior",
+                    "type": "Familiar",
+                    "id": 6335
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Red-Breasted Hainu",
+                    "type": "Familiar",
+                    "id": 1035
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Tengu",
+                    "type": "Familiar",
+                    "id": 420
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Tigerblood Foo",
+                    "type": "Familiar",
+                    "id": 11147
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Trick of the Light",
+                    "type": "Familiar",
+                    "id": 343
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Umbra Wolf",
+                    "type": "Familiar",
+                    "id": 612
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Wandering Surgepriest",
+                    "type": "Familiar",
+                    "id": 15130
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Thunderhead Savanna",
+        "startingLevel": 14,
+        "endingLevel": 14,
+        "scene": false,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 17,
+                "currencyPerHour": 20.3
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 109
+            },
+            "lightning": {
+                "percent": 13,
+                "currencyPerHour": 125
+            },
+            "fire": {
+                "percent": 8,
+                "currencyPerHour": 101
+            },
+            "arcane": {
+                "percent": 4,
+                "currencyPerHour": 79
+            },
+            "plague": {
+                "percent": 8,
+                "currencyPerHour": 101
+            },
+            "earth": {
+                "percent": 4,
+                "currencyPerHour": 80
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 101
+            },
+            "shadow": {
+                "percent": 8,
+                "currencyPerHour": 109
+            },
+            "wind": {
+                "percent": 8,
+                "currencyPerHour": 109
+            },
+            "water": {
+                "percent": 8,
+                "currencyPerHour": 109
+            },
+            "nature": {
+                "percent": 4,
+                "currencyPerHour": 83
+            }
+        },
+        "food": {
+            "insect": 738,
+            "meat": 1002,
+            "seafood": 546,
+            "plant": 630
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Ampelope",
+                    "type": "Familiar",
+                    "id": 28233
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Condorwing Champion",
+                    "type": "Familiar",
+                    "id": 28133
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Coursing Skira",
+                    "type": "Familiar",
+                    "id": 28244
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Dire Vulture",
+                    "type": "Familiar",
+                    "id": 28137
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Dustfeather Sphinx",
+                    "type": "Familiar",
+                    "id": 28140
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Falconclaw Warrior",
+                    "type": "Familiar",
+                    "id": 28234
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Flesh Forager",
+                    "type": "Familiar",
+                    "id": 28128
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Golden Lionsnake",
+                    "type": "Familiar",
+                    "id": 28227
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Grassland Skira",
+                    "type": "Familiar",
+                    "id": 28245
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Greattusk",
+                    "type": "Familiar",
+                    "id": 28228
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Heckling Hydrena",
+                    "type": "Familiar",
+                    "id": 28243
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "King Quillrunner",
+                    "type": "Familiar",
+                    "id": 28238
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Magpie Sphinx",
+                    "type": "Familiar",
+                    "id": 28232
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Pale Greattusk",
+                    "type": "Familiar",
+                    "id": 28229
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Plainstrider Bard",
+                    "type": "Familiar",
+                    "id": 28230
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Quillrunner",
+                    "type": "Familiar",
+                    "id": 28239
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Rabid Grinfin",
+                    "type": "Familiar",
+                    "id": 28242
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Raptorik Herder",
+                    "type": "Familiar",
+                    "id": 28240
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Raptorik Wanderer",
+                    "type": "Familiar",
+                    "id": 28241
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Rockback Charger",
+                    "type": "Familiar",
+                    "id": 28235
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Roundhorn Rager",
+                    "type": "Familiar",
+                    "id": 28247
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Roving Lionsnake",
+                    "type": "Familiar",
+                    "id": 28226
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Starry Ampelope",
+                    "type": "Familiar",
+                    "id": 28237
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Thunderstomp",
+                    "type": "Familiar",
+                    "id": 28236
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Unburdened Billy",
+                    "type": "Familiar",
+                    "id": 28246
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Wintermane Minstrel",
+                    "type": "Familiar",
+                    "id": 28231
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Redrock Cove",
+        "startingLevel": 15,
+        "endingLevel": 15,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 17,
+                "currencyPerHour": 23.5
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 113
+            },
+            "lightning": {
+                "percent": 0,
+                "currencyPerHour": 61
+            },
+            "fire": {
+                "percent": 8,
+                "currencyPerHour": 103
+            },
+            "arcane": {
+                "percent": 4,
+                "currencyPerHour": 82
+            },
+            "plague": {
+                "percent": 9,
+                "currencyPerHour": 107
+            },
+            "earth": {
+                "percent": 4,
+                "currencyPerHour": 110
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 105
+            },
+            "shadow": {
+                "percent": 4,
+                "currencyPerHour": 88
+            },
+            "wind": {
+                "percent": 8,
+                "currencyPerHour": 113
+            },
+            "water": {
+                "percent": 21,
+                "currencyPerHour": 197
+            },
+            "nature": {
+                "percent": 8,
+                "currencyPerHour": 109
+            }
+        },
+        "food": {
+            "insect": 720,
+            "meat": 652,
+            "seafood": 873,
+            "plant": 659
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Coast Charger",
+                    "type": "Familiar",
+                    "id": 35765
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Coastline Sawbeak",
+                    "type": "Familiar",
+                    "id": 35762
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Dainty Wavehopper",
+                    "type": "Familiar",
+                    "id": 20143
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Daydream Puffer",
+                    "type": "Familiar",
+                    "id": 20144
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Deeprealm Hunter",
+                    "type": "Familiar",
+                    "id": 20145
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Green-Breasted Sawbeak",
+                    "type": "Familiar",
+                    "id": 35763
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Highfin Sea Serpent",
+                    "type": "Familiar",
+                    "id": 20146
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Igueel Matriarch",
+                    "type": "Familiar",
+                    "id": 35767
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Leopard Coralclimber",
+                    "type": "Familiar",
+                    "id": 20147
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Maren Defender",
+                    "type": "Familiar",
+                    "id": 20148
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Maren Sorceress",
+                    "type": "Familiar",
+                    "id": 32305
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Maren Spearmaiden",
+                    "type": "Familiar",
+                    "id": 20149
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Mirage Puffer",
+                    "type": "Familiar",
+                    "id": 20150
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Mottled Sea Serpent",
+                    "type": "Familiar",
+                    "id": 20151
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Murkbottom Gull",
+                    "type": "Familiar",
+                    "id": 20152
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Noxious Coralclimber",
+                    "type": "Familiar",
+                    "id": 20153
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Oceansurf Magus",
+                    "type": "Familiar",
+                    "id": 20154
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Redfin Wavespinner",
+                    "type": "Familiar",
+                    "id": 32306
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Riptide Clipper",
+                    "type": "Familiar",
+                    "id": 20155
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Sandshore Snipper",
+                    "type": "Familiar",
+                    "id": 20156
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Spiney Whale",
+                    "type": "Familiar",
+                    "id": 20157
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Surf Strider",
+                    "type": "Familiar",
+                    "id": 35764
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Toxic Igueel",
+                    "type": "Familiar",
+                    "id": 35766
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Tradewinds Gull",
+                    "type": "Familiar",
+                    "id": 20158
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Vivid Wavehopper",
+                    "type": "Familiar",
+                    "id": 20159
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Waveswell Sorcerer",
+                    "type": "Familiar",
+                    "id": 20160
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Waterway",
+        "startingLevel": 16,
+        "endingLevel": 16,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 12,
+                "currencyPerHour": 21.9
+            },
+            "light": {
+                "percent": 12,
+                "currencyPerHour": 122
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 88
+            },
+            "fire": {
+                "percent": 4,
+                "currencyPerHour": 65
+            },
+            "arcane": {
+                "percent": 7,
+                "currencyPerHour": 83
+            },
+            "plague": {
+                "percent": 9,
+                "currencyPerHour": 91
+            },
+            "earth": {
+                "percent": 8,
+                "currencyPerHour": 88
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 88
+            },
+            "shadow": {
+                "percent": 4,
+                "currencyPerHour": 70
+            },
+            "wind": {
+                "percent": 7,
+                "currencyPerHour": 92
+            },
+            "water": {
+                "percent": 12,
+                "currencyPerHour": 121
+            },
+            "nature": {
+                "percent": 8,
+                "currencyPerHour": 96
+            }
+        },
+        "food": {
+            "insect": 586,
+            "meat": 796,
+            "seafood": 583,
+            "plant": 694
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Blueridge Greatshell",
+                    "type": "Familiar",
+                    "id": 2421
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Brown River Flight",
+                    "type": "Familiar",
+                    "id": 411
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Crested River Flight",
+                    "type": "Familiar",
+                    "id": 25752
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Cumulus Seal",
+                    "type": "Familiar",
+                    "id": 380
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Dappled Seal",
+                    "type": "Familiar",
+                    "id": 404
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Everglade Lasher",
+                    "type": "Familiar",
+                    "id": 403
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Fanrat",
+                    "type": "Familiar",
+                    "id": 25770
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Ghostly Rat Lord",
+                    "type": "Familiar",
+                    "id": 25777
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Giant White Toridae",
+                    "type": "Familiar",
+                    "id": 25758
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Goldfin River Flight",
+                    "type": "Familiar",
+                    "id": 25753
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Granite Thresher",
+                    "type": "Familiar",
+                    "id": 609
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Greater Sandstrike",
+                    "type": "Familiar",
+                    "id": 414
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Grey River Flight",
+                    "type": "Familiar",
+                    "id": 353
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Maren Currentfinder",
+                    "type": "Familiar",
+                    "id": 16044
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Maren Shark Hunter",
+                    "type": "Familiar",
+                    "id": 16045
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Noggle",
+                    "type": "Familiar",
+                    "id": 800
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Radioactive Slime",
+                    "type": "Familiar",
+                    "id": 638
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Rainbow Sprite",
+                    "type": "Familiar",
+                    "id": 412
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Rat King",
+                    "type": "Familiar",
+                    "id": 25776
+                },
+                "boss": true,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "River Muck",
+                    "type": "Familiar",
+                    "id": 637
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Scaleside Noggle",
+                    "type": "Familiar",
+                    "id": 25764
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Scarlet Flycatcher",
+                    "type": "Familiar",
+                    "id": 354
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Sewer Toridae",
+                    "type": "Familiar",
+                    "id": 25759
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Shale Thresher",
+                    "type": "Familiar",
+                    "id": 610
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Silky Fanrat",
+                    "type": "Familiar",
+                    "id": 25771
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Sludge Sifter",
+                    "type": "Familiar",
+                    "id": 25765
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Sunset Lasher",
+                    "type": "Familiar",
+                    "id": 799
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Arena",
+        "startingLevel": 17,
+        "endingLevel": 17,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 16,
+                "currencyPerHour": 17.3
+            },
+            "light": {
+                "percent": 14,
+                "currencyPerHour": 124
+            },
+            "lightning": {
+                "percent": 9,
+                "currencyPerHour": 86
+            },
+            "fire": {
+                "percent": 8,
+                "currencyPerHour": 85
+            },
+            "arcane": {
+                "percent": 8,
+                "currencyPerHour": 85
+            },
+            "plague": {
+                "percent": 4,
+                "currencyPerHour": 65
+            },
+            "earth": {
+                "percent": 8,
+                "currencyPerHour": 82
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 82
+            },
+            "shadow": {
+                "percent": 8,
+                "currencyPerHour": 88
+            },
+            "wind": {
+                "percent": 7,
+                "currencyPerHour": 86
+            },
+            "water": {
+                "percent": 8,
+                "currencyPerHour": 88
+            },
+            "nature": {
+                "percent": 4,
+                "currencyPerHour": 68
+            }
+        },
+        "food": {
+            "insect": 772,
+            "meat": 622,
+            "seafood": 828,
+            "plant": 422
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "Armored Greatowl",
+                    "type": "Familiar",
+                    "id": 24505
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Ashmane Chimera",
+                    "type": "Familiar",
+                    "id": 24508
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Bengal Chimera",
+                    "type": "Familiar",
+                    "id": 24507
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Boran Veteran",
+                    "type": "Familiar",
+                    "id": 17495
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Celestial Antelope",
+                    "type": "Familiar",
+                    "id": 342
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Charcoal Sprangyroo",
+                    "type": "Familiar",
+                    "id": 4002
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Chimera",
+                    "type": "Familiar",
+                    "id": 361
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Double-Tailed Warcat",
+                    "type": "Familiar",
+                    "id": 772
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Featherback Boar",
+                    "type": "Familiar",
+                    "id": 17507
+                },
+                "boss": true,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Goldenplains Poodle Mith",
+                    "type": "Familiar",
+                    "id": 17501
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Greenwing Razorclaw",
+                    "type": "Familiar",
+                    "id": 24514
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Hulking Greatowl",
+                    "type": "Familiar",
+                    "id": 24506
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Longneck Gladiator",
+                    "type": "Familiar",
+                    "id": 24509
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Longneck Interloper",
+                    "type": "Familiar",
+                    "id": 422
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Longneck Magi",
+                    "type": "Familiar",
+                    "id": 803
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Longneck Mender",
+                    "type": "Familiar",
+                    "id": 804
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Longneck Scrapper",
+                    "type": "Familiar",
+                    "id": 24510
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Longneck Skirmisher",
+                    "type": "Familiar",
+                    "id": 421
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Marshland Poodle Mith",
+                    "type": "Familiar",
+                    "id": 17502
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Raptorik Bladedancer",
+                    "type": "Familiar",
+                    "id": 24513
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Raptorik Ringmaster",
+                    "type": "Familiar",
+                    "id": 24511
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Silver Springbok",
+                    "type": "Familiar",
+                    "id": 409
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Spellwall Boran",
+                    "type": "Familiar",
+                    "id": 17496
+                },
+                "boss": false,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Sprangyroo",
+                    "type": "Familiar",
+                    "id": 4001
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Stormclaw Showman",
+                    "type": "Familiar",
+                    "id": 24512
+                },
+                "boss": false,
+                "fiona": false
+            },
+            {
+                "item": {
+                    "name": "Undying Featherback",
+                    "type": "Familiar",
+                    "id": 17508
+                },
+                "boss": true,
+                "fiona": true
+            },
+            {
+                "item": {
+                    "name": "Warcat Protector",
+                    "type": "Familiar",
+                    "id": 773
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Volcanic Vents",
+        "startingLevel": 18,
+        "endingLevel": 18,
+        "scene": false,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 17,
+                "currencyPerHour": 21.8
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 89
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 83
+            },
+            "fire": {
+                "percent": 21,
+                "currencyPerHour": 137
+            },
+            "arcane": {
+                "percent": 5,
+                "currencyPerHour": 67
+            },
+            "plague": {
+                "percent": 9,
+                "currencyPerHour": 84
+            },
+            "earth": {
+                "percent": 5,
+                "currencyPerHour": 67
+            },
+            "ice": {
+                "percent": 9,
+                "currencyPerHour": 84
+            },
+            "shadow": {
+                "percent": 4,
+                "currencyPerHour": 67
+            },
+            "wind": {
+                "percent": 4,
+                "currencyPerHour": 69
+            },
+            "water": {
+                "percent": 4,
+                "currencyPerHour": 69
+            },
+            "nature": {
+                "percent": 8,
+                "currencyPerHour": 87
+            }
+        },
+        "food": {
+            "insect": 1092,
+            "meat": 904,
+            "seafood": 965,
+            "plant": 888
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Rainsong Jungle",
+        "startingLevel": 19,
+        "endingLevel": 19,
+        "scene": false,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 17,
+                "currencyPerHour": 27.8
+            },
+            "light": {
+                "percent": 1,
+                "currencyPerHour": 65
+            },
+            "lightning": {
+                "percent": 1,
+                "currencyPerHour": 64
+            },
+            "fire": {
+                "percent": 7,
+                "currencyPerHour": 101
+            },
+            "arcane": {
+                "percent": 7,
+                "currencyPerHour": 98
+            },
+            "plague": {
+                "percent": 7,
+                "currencyPerHour": 98
+            },
+            "earth": {
+                "percent": 12,
+                "currencyPerHour": 131
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 105
+            },
+            "shadow": {
+                "percent": 7,
+                "currencyPerHour": 104
+            },
+            "wind": {
+                "percent": 7,
+                "currencyPerHour": 109
+            },
+            "water": {
+                "percent": 7,
+                "currencyPerHour": 109
+            },
+            "nature": {
+                "percent": 20,
+                "currencyPerHour": 196
+            }
+        },
+        "food": {
+            "insect": 1112,
+            "meat": 1320,
+            "seafood": 1312,
+            "plant": 990
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Boreal Wood",
+        "startingLevel": 20,
+        "endingLevel": 20,
+        "scene": false,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": false,
+        "elements": {
+            "neutral": {
+                "percent": 12,
+                "currencyPerHour": 27.4
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 88
+            },
+            "lightning": {
+                "percent": 7,
+                "currencyPerHour": 79
+            },
+            "fire": {
+                "percent": 7,
+                "currencyPerHour": 77
+            },
+            "arcane": {
+                "percent": 6,
+                "currencyPerHour": 72
+            },
+            "plague": {
+                "percent": 8,
+                "currencyPerHour": 82
+            },
+            "earth": {
+                "percent": 11,
+                "currencyPerHour": 101
+            },
+            "ice": {
+                "percent": 14,
+                "currencyPerHour": 115
+            },
+            "shadow": {
+                "percent": 7,
+                "currencyPerHour": 82
+            },
+            "wind": {
+                "percent": 6,
+                "currencyPerHour": 80
+            },
+            "water": {
+                "percent": 6,
+                "currencyPerHour": 77
+            },
+            "nature": {
+                "percent": 8,
+                "currencyPerHour": 89
+            }
+        },
+        "food": {
+            "insect": 655,
+            "meat": 957,
+            "seafood": 392,
+            "plant": 362
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Crystal Pools",
+        "startingLevel": 21,
+        "endingLevel": 21,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": true,
+        "elements": {
+            "neutral": {
+                "percent": 22,
+                "currencyPerHour": 25.5
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 124
+            },
+            "lightning": {
+                "percent": 6,
+                "currencyPerHour": 107
+            },
+            "fire": {
+                "percent": 8,
+                "currencyPerHour": 116
+            },
+            "arcane": {
+                "percent": 20,
+                "currencyPerHour": 184
+            },
+            "plague": {
+                "percent": 8,
+                "currencyPerHour": 116
+            },
+            "earth": {
+                "percent": 7,
+                "currencyPerHour": 112
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 116
+            },
+            "shadow": {
+                "percent": 1,
+                "currencyPerHour": 80
+            },
+            "wind": {
+                "percent": 8,
+                "currencyPerHour": 124
+            },
+            "water": {
+                "percent": 1,
+                "currencyPerHour": 80
+            },
+            "nature": {
+                "percent": 7,
+                "currencyPerHour": 118
+            }
+        },
+        "food": {
+            "insect": 724,
+            "meat": 606,
+            "seafood": 541,
+            "plant": 590
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Harpy's Roost",
+        "startingLevel": 22,
+        "endingLevel": 22,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": true,
+        "elements": {
+            "neutral": {
+                "percent": 21,
+                "currencyPerHour": 25.7
+            },
+            "light": {
+                "percent": 7,
+                "currencyPerHour": 114
+            },
+            "lightning": {
+                "percent": 9,
+                "currencyPerHour": 121
+            },
+            "fire": {
+                "percent": 5,
+                "currencyPerHour": 97
+            },
+            "arcane": {
+                "percent": 5,
+                "currencyPerHour": 100
+            },
+            "plague": {
+                "percent": 4,
+                "currencyPerHour": 92
+            },
+            "earth": {
+                "percent": 4,
+                "currencyPerHour": 94
+            },
+            "ice": {
+                "percent": 5,
+                "currencyPerHour": 97
+            },
+            "shadow": {
+                "percent": 6,
+                "currencyPerHour": 108
+            },
+            "wind": {
+                "percent": 22,
+                "currencyPerHour": 217
+            },
+            "water": {
+                "percent": 4,
+                "currencyPerHour": 98
+            },
+            "nature": {
+                "percent": 5,
+                "currencyPerHour": 102
+            }
+        },
+        "food": {
+            "insect": 952,
+            "meat": 831,
+            "seafood": 814,
+            "plant": 546
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Ghostlight Ruins",
+        "startingLevel": 23,
+        "endingLevel": 23,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": true,
+        "elements": {
+            "neutral": {
+                "percent": 19,
+                "currencyPerHour": 20.6
+            },
+            "light": {
+                "percent": 6,
+                "currencyPerHour": 59
+            },
+            "lightning": {
+                "percent": 6,
+                "currencyPerHour": 56
+            },
+            "fire": {
+                "percent": 6,
+                "currencyPerHour": 56
+            },
+            "arcane": {
+                "percent": 6,
+                "currencyPerHour": 56
+            },
+            "plague": {
+                "percent": 6,
+                "currencyPerHour": 56
+            },
+            "earth": {
+                "percent": 6,
+                "currencyPerHour": 56
+            },
+            "ice": {
+                "percent": 6,
+                "currencyPerHour": 56
+            },
+            "shadow": {
+                "percent": 19,
+                "currencyPerHour": 104
+            },
+            "wind": {
+                "percent": 6,
+                "currencyPerHour": 59
+            },
+            "water": {
+                "percent": 6,
+                "currencyPerHour": 59
+            },
+            "nature": {
+                "percent": 7,
+                "currencyPerHour": 61
+            }
+        },
+        "food": {
+            "insect": 400,
+            "meat": 477,
+            "seafood": 485,
+            "plant": 672
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Mire",
+        "startingLevel": 24,
+        "endingLevel": 24,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": true,
+        "elements": {
+            "neutral": {
+                "percent": 15,
+                "currencyPerHour": 22.2
+            },
+            "light": {
+                "percent": 7,
+                "currencyPerHour": 69
+            },
+            "lightning": {
+                "percent": 8,
+                "currencyPerHour": 67
+            },
+            "fire": {
+                "percent": 4,
+                "currencyPerHour": 52
+            },
+            "arcane": {
+                "percent": 7,
+                "currencyPerHour": 66
+            },
+            "plague": {
+                "percent": 17,
+                "currencyPerHour": 103
+            },
+            "earth": {
+                "percent": 8,
+                "currencyPerHour": 67
+            },
+            "ice": {
+                "percent": 7,
+                "currencyPerHour": 66
+            },
+            "shadow": {
+                "percent": 8,
+                "currencyPerHour": 76
+            },
+            "wind": {
+                "percent": 7,
+                "currencyPerHour": 69
+            },
+            "water": {
+                "percent": 4,
+                "currencyPerHour": 54
+            },
+            "nature": {
+                "percent": 9,
+                "currencyPerHour": 77
+            }
+        },
+        "food": {
+            "insect": 584,
+            "meat": 366,
+            "seafood": 776,
+            "plant": 682
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Kelp Beds",
+        "startingLevel": 25,
+        "endingLevel": 25,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": true,
+        "elements": {
+            "neutral": {
+                "percent": 13,
+                "currencyPerHour": 16.3
+            },
+            "light": {
+                "percent": 9,
+                "currencyPerHour": 72
+            },
+            "lightning": {
+                "percent": 5,
+                "currencyPerHour": 50
+            },
+            "fire": {
+                "percent": 5,
+                "currencyPerHour": 52
+            },
+            "arcane": {
+                "percent": 5,
+                "currencyPerHour": 50
+            },
+            "plague": {
+                "percent": 4,
+                "currencyPerHour": 49
+            },
+            "earth": {
+                "percent": 9,
+                "currencyPerHour": 64
+            },
+            "ice": {
+                "percent": 4,
+                "currencyPerHour": 49
+            },
+            "shadow": {
+                "percent": 9,
+                "currencyPerHour": 74
+            },
+            "wind": {
+                "percent": 9,
+                "currencyPerHour": 70
+            },
+            "water": {
+                "percent": 18,
+                "currencyPerHour": 115
+            },
+            "nature": {
+                "percent": 9,
+                "currencyPerHour": 72
+            }
+        },
+        "food": {
+            "insect": 391,
+            "meat": 186,
+            "seafood": 951,
+            "plant": 475
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Golem Workshop",
+        "startingLevel": 25,
+        "endingLevel": 25,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 4,
+        "exaltTraining": true,
+        "elements": {
+            "neutral": {
+                "percent": 14,
+                "currencyPerHour": 18.9
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 60
+            },
+            "lightning": {
+                "percent": 14,
+                "currencyPerHour": 76
+            },
+            "fire": {
+                "percent": 8,
+                "currencyPerHour": 54
+            },
+            "arcane": {
+                "percent": 8,
+                "currencyPerHour": 54
+            },
+            "plague": {
+                "percent": 7,
+                "currencyPerHour": 53
+            },
+            "earth": {
+                "percent": 4,
+                "currencyPerHour": 43
+            },
+            "ice": {
+                "percent": 4,
+                "currencyPerHour": 43
+            },
+            "shadow": {
+                "percent": 8,
+                "currencyPerHour": 60
+            },
+            "wind": {
+                "percent": 8,
+                "currencyPerHour": 60
+            },
+            "water": {
+                "percent": 8,
+                "currencyPerHour": 58
+            },
+            "nature": {
+                "percent": 8,
+                "currencyPerHour": 60
+            }
+        },
+        "food": {
+            "insect": 347,
+            "meat": 306,
+            "seafood": 633,
+            "plant": 490
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    },
+    {
+        "title": "Forbidden Portal",
+        "startingLevel": 25,
+        "endingLevel": 25,
+        "scene": true,
+        "apparel": [
+            {
+                "name": "",
+                "type": "",
+                "id": 0
+            }
+        ],
+        "maxEnemyCount": 3,
+        "exaltTraining": true,
+        "elements": {
+            "neutral": {
+                "percent": 17,
+                "currencyPerHour": 21
+            },
+            "light": {
+                "percent": 8,
+                "currencyPerHour": 74
+            },
+            "lightning": {
+                "percent": 4,
+                "currencyPerHour": 53
+            },
+            "fire": {
+                "percent": 4,
+                "currencyPerHour": 52
+            },
+            "arcane": {
+                "percent": 17,
+                "currencyPerHour": 99
+            },
+            "plague": {
+                "percent": 8,
+                "currencyPerHour": 69
+            },
+            "earth": {
+                "percent": 8,
+                "currencyPerHour": 69
+            },
+            "ice": {
+                "percent": 8,
+                "currencyPerHour": 69
+            },
+            "shadow": {
+                "percent": 8,
+                "currencyPerHour": 74
+            },
+            "wind": {
+                "percent": 4,
+                "currencyPerHour": 58
+            },
+            "water": {
+                "percent": 8,
+                "currencyPerHour": 74
+            },
+            "nature": {
+                "percent": 4,
+                "currencyPerHour": 56
+            }
+        },
+        "food": {
+            "insect": 340,
+            "meat": 600,
+            "seafood": 570,
+            "plant": 410
+        },
+        "familiars": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "boss": false,
+                "fiona": false
+            }
+        ],
+        "swipp": [
+            {
+                "item": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "target": {
+                    "name": "",
+                    "type": "",
+                    "id": 0
+                },
+                "dropsFrom": "",
+                "numberRequired": 0,
+                "otherRequirements": [
+                    {
+                        "item": {
+                            "name": "",
+                            "type": "",
+                            "id": 0
+                        },
+                        "aquisition": {
+                            "method": "",
+                            "level": 0,
+                            "details": ""
+                        },
+                        "numberRequired": 0
+                    }
+                ],
+                "festival": null
+            }
+        ],
+        "baldwin": []
+    }
+]
