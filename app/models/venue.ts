@@ -26,7 +26,7 @@ export type CombinationItem = {
     target: Item,
     dropsFrom: string[],
     numberRequired: number,
-    otherIngredients: otherRequirement[],
+    otherRequirements: otherRequirement[],
     festival?: string
 }
 

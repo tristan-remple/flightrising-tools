@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 
-import { Familiar, Venue } from "@/app/models/venue"
+import { CombinationItem, Familiar, Venue } from "@/app/models/venue"
 import { Food } from "@/app/models/enums"
 import ItemTile from "@/app/components/ItemTile"
 
@@ -83,7 +83,7 @@ const VenuePage = ({ params }: Props) => {
     const [ feature, setFeature ] = useState<string | null>(null)
 
     // ---FAMILIARS
-    // focus familiars show up at the top of the column
+    // focus items show up at the top of the column
     // they display more details than the tiles below
     const [ focusFamiliarList, setFocusFamiliarList ] = useState<Familiar[]>([])
     const showFamiliarDetails = (familiarId: number) => {
@@ -156,105 +156,214 @@ const VenuePage = ({ params }: Props) => {
         <h3>All</h3>
         <div className="row">
             { venue?.familiars.map(fam => {
-                return <ItemTile item={ fam.item } handleClick={ showFamiliarDetails } />
+                return <ItemTile item={ fam.item } handleClick={ showFamiliarDetails } key={ fam.item.id } />
             })}
         </div>
     </>
 
+    // ---SWIPP
+
+    // focus items show up at the top of the column
+    // they display more details than the tiles below
+    const [ swippFocusList, setSwippFocusList ] = useState<CombinationItem[]>([])
+    const showSwippItem = (itemId: number) => {
+        const newSwippFocus = [...swippFocusList]
+        const swippItem = venue?.swipp.filter(trade => trade.item.id === itemId)
+        if (swippItem && !newSwippFocus.find(trade => {
+            return (trade.item.id === swippItem[0].item.id)
+        })) {
+            newSwippFocus.push(...swippItem)
+            newSwippFocus.sort((a, b) => {
+                return a.item.name.localeCompare(b.item.name)
+            })
+            setSwippFocusList(newSwippFocus)
+        }
+    }
+    const showSwippTarget = (id: number) => {
+        return
+    }
+
+    const focusAllSwipp = () => {
+        const allSwipp = venue?.swipp.sort((a, b) => {
+            return a.item.name.localeCompare(b.item.name)
+        }) || []
+        setSwippFocusList(allSwipp)
+    }
+    const focusNoSwipp = () => {
+        setSwippFocusList([])
+    }
+    const removeSwippFocus = (itemId: number, targetId: number) => {
+        const newSwippFocus = [...swippFocusList].filter(trade => {
+            return trade.target.id !== targetId || trade.item.id !== itemId
+        })
+        setSwippFocusList(newSwippFocus)
+    }
+
+    // the mode can be set to display target items or gathered materials
+    const [ swippMode, setSwippMode ] = useState("Requested Item")
+    const switchMode = () => {
+        const newMode = swippMode === "Requested Item" ? "Trade Goal" : "Requested Item"
+        setSwippMode(newMode)
+    }
+
+    const displayFocusTrades = <table>
+        <thead>
+            <tr>
+                <td colSpan={ 2 }>Trade-in Item</td>
+                <td>Required</td>
+                <td>Drops From</td>
+                <td colSpan={ 2 }>Target Item</td>
+                <td colSpan={ 3 }>Other Requirements</td>
+                <td>Remove</td>
+            </tr>
+        </thead>
+        <tbody>
+            { swippFocusList.map(trade => {
+
+                let otherReq = trade.otherRequirements.map(req => {
+                    return <td key={ req.item.id }><img className="item-mini" src={ `/img/icons/${ req.item.name }.png` } /></td>
+                })
+                for (let cap = otherReq.length; cap < 3; cap++) {
+                    otherReq.push(<td key={ `${ trade.item.id }-${ trade.target.id }-${ cap }` }></td>)
+                }
+
+                return <tr key={ `${trade.item.id}-${trade.target.id}` }>
+                    <td><img className="item-mini" src={ `/img/icons/${ trade.item.name }.png` } /></td>
+                    <td>{ trade.item.name }</td>
+                    <td>{ trade.numberRequired }</td>
+                    <td><img className="item-mini" src={ `/img/icons/${ trade.dropsFrom[0] }.png` } /></td>
+                    <td><img className="item-mini" src={ `/img/icons/${ trade.target.name }.png` } /></td>
+                    <td>{ trade.target.name }</td>
+                    { otherReq }
+                    <td><div className="square-btn" onClick={ () => removeSwippFocus(trade.item.id, trade.target.id) }>✘</div></td>
+                </tr>
+            })}
+        </tbody>
+    </table>
     const displaySwipp = <>
         <h2>Swipp Trades</h2>
+        <strong>Current Mode:</strong> { swippMode } <div className="btn" onClick={ switchMode } >Switch</div>
+        <h3>Focus</h3>
+        <div className="row row-3btn">
+            <div className="btn" onClick={ focusAllSwipp } >Focus All</div>
+            <div className="btn" onClick={ focusNoSwipp } >Focus None</div>
+        </div>
+        { swippFocusList.length > 0 && displayFocusTrades }
+        <h3>All</h3>
+        <div className="row">
+            { swippMode === "Requested Item" ? venue?.swipp.reduce((list: CombinationItem[], trade) => {
+                if (!list.find(item => item.item.id === trade.item.id)) {
+                    list.push(trade)
+                }
+                return list
+            }, []).sort((a, b) => {
+                return a.item.name.localeCompare(b.item.name)
+            }).map(trade => {
+                return <ItemTile item={ trade.item } handleClick={ showSwippItem } key={ `${trade.item.id}-${trade.target.id}` } />
+            }) : venue?.swipp.sort((a, b) => {
+                return a.item.name.localeCompare(b.item.name)
+            }).map(trade => {
+                return <ItemTile item={ trade.target } handleClick={ showSwippTarget } key={ `${trade.item.id}-${trade.target.id}` } />
+            }) }
+        </div>
     </>
 
     const displayBaldwin = <>
         <h2>Baldwin Recipes</h2>
     </>
 
+    const dontHandleClick = (id: number) => {
+        return
+    }
     const displayApparel = <>
         <h2>Apparel Drops</h2>
+        <div className="row">
+            { venue?.apparel.map(piece => {
+                return <ItemTile item={ piece } handleClick={ dontHandleClick } key={ piece.id } />
+            })}
+        </div>
     </>
 
     return error ? <p>{ error }</p> : (
         <main>
             <h1>{ venue?.title }</h1>
             <img className="background" src={ `/img/${ venue?.title } Day.png` } />
-            <div className="row">
-                <div className="box half">
-                    <h2>Overview</h2>
-                    <table className="overview">
-                        <tbody>
-                            { venue?.startingLevel === venue?.endingLevel ?
-                                <tr><td><strong>Level:</strong></td><td>{ venue?.startingLevel }</td><td></td></tr> :
-                                <tr><td><strong>Levels:</strong></td><td>{ venue?.startingLevel }-{ venue?.endingLevel }</td><td></td></tr>
-                            }
-                            <tr>
-                                <td><strong>Exalt Grinding:</strong></td>
-                                <td>{ convertBool(venue?.exaltTraining) }</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td className="text-top"><strong>Food:</strong></td>
-                                <td>
-                                    <table className="wide inner">
-                                        <tbody>
-                                            <tr><td><strong>Total:</strong></td><td>{ details.totalFood }</td></tr>
-                                            <tr><td><strong>Insects:</strong></td><td>{ venue?.food.insect }</td></tr>
-                                            <tr><td><strong>Meat:</strong></td><td>{ venue?.food.meat }</td></tr>
-                                            <tr><td><strong>Seafood:</strong></td><td>{ venue?.food.seafood }</td></tr>
-                                            <tr><td><strong>Plants:</strong></td><td>{ venue?.food.plant }</td></tr>
-                                        </tbody>
-                                    </table>
-                                </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Bosses:</strong>
-                                </td><td>{convertBool(details.bosses) }</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Familiars:</strong></td>
-                                <td>{ details.enemyCount }</td>
-                                <td><div className="btn small" onClick={ () => setFeature("familiars") } >Focus</div></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Fiona Familiars:</strong></td>
-                                <td>{ details.fionaCount }</td>
-                                <td>{ details.fionaCount > 0 && <div className="btn small"  onClick={ () => {
-                                    setFeature("familiars")
-                                    focusFiona()
-                                }} >Focus</div> }</td>
-                            </tr>
+            <div className="box wide">
+                <h2>Overview</h2>
+                <table className="overview">
+                    <tbody>
+                        { venue?.startingLevel === venue?.endingLevel ?
+                            <tr><td><strong>Level:</strong></td><td>{ venue?.startingLevel }</td><td></td></tr> :
+                            <tr><td><strong>Levels:</strong></td><td>{ venue?.startingLevel }-{ venue?.endingLevel }</td><td></td></tr>
+                        }
+                        <tr>
+                            <td><strong>Exalt Grinding:</strong></td>
+                            <td>{ convertBool(venue?.exaltTraining) }</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td className="text-top"><strong>Food:</strong></td>
+                            <td>
+                                <table className="wide inner">
+                                    <tbody>
+                                        <tr><td><strong>Total:</strong></td><td>{ details.totalFood }</td></tr>
+                                        <tr><td><strong>Insects:</strong></td><td>{ venue?.food.insect }</td></tr>
+                                        <tr><td><strong>Meat:</strong></td><td>{ venue?.food.meat }</td></tr>
+                                        <tr><td><strong>Seafood:</strong></td><td>{ venue?.food.seafood }</td></tr>
+                                        <tr><td><strong>Plants:</strong></td><td>{ venue?.food.plant }</td></tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bosses:</strong>
+                            </td><td>{convertBool(details.bosses) }</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Familiars:</strong></td>
+                            <td>{ details.enemyCount }</td>
+                            <td><div className="btn small" onClick={ () => setFeature("familiars") } >Focus</div></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fiona Familiars:</strong></td>
+                            <td>{ details.fionaCount }</td>
+                            <td>{ details.fionaCount > 0 && <div className="btn small"  onClick={ () => {
+                                setFeature("familiars")
+                                focusFiona()
+                            }} >Focus</div> }</td>
+                        </tr>
 
-                            <tr>
-                                <td><strong>Swipp Trades:</strong></td>
-                                <td>{ details.swippCount }</td>
-                                <td><div className="btn small" onClick={ () => setFeature("swipp") } >Focus</div></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Baldwin Recipes:</strong></td>
-                                <td>{ details.baldwinCount }</td>
-                                <td><div className="btn small" onClick={ () => setFeature("baldwin") } >Focus</div></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Unique Apparel:</strong></td>
-                                <td>{ details.apparelCount }</td>
-                                <td><div className="btn small" onClick={ () => setFeature("apparel") } >Focus</div></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Scene Drop:</strong></td>
-                                <td>{ convertBool(venue?.scene) }</td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <Link className="btn" href="/coliseum">Return to List</Link>
-                </div>
-                <div className="box half">
-                    { feature === "familiars" && displayFamiliars }
-                    { feature === "swipp" && displaySwipp }
-                    { feature === "baldwin" && displayBaldwin }
-                    { feature === "apparel" && displayApparel }
-                </div>
+                        <tr>
+                            <td><strong>Swipp Trades:</strong></td>
+                            <td>{ details.swippCount }</td>
+                            <td><div className="btn small" onClick={ () => setFeature("swipp") } >Focus</div></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Baldwin Recipes:</strong></td>
+                            <td>{ details.baldwinCount }</td>
+                            <td><div className="btn small" onClick={ () => setFeature("baldwin") } >Focus</div></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Unique Apparel:</strong></td>
+                            <td>{ details.apparelCount }</td>
+                            <td><div className="btn small" onClick={ () => setFeature("apparel") } >Focus</div></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Scene Drop:</strong></td>
+                            <td>{ convertBool(venue?.scene) }</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <Link className="btn" href="/coliseum">Return to List</Link>
+            </div>
+            <div className="box wide">
+                { feature === "familiars" && displayFamiliars }
+                { feature === "swipp" && displaySwipp }
+                { feature === "baldwin" && displayBaldwin }
+                { feature === "apparel" && displayApparel }
             </div>
         </main>
     )

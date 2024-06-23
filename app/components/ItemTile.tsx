@@ -6,7 +6,7 @@ interface Props {
 }
 
 const ItemTile = ({ item, handleClick }: Props) => {
-    return <div className="item" onClick={ () => handleClick(item.id) } key={ item.id } >
+    return <div className="item" onClick={ () => handleClick(item.id) } >
         <img className="item-icon" src={ `/img/icons/${ item.name }.png` } />
         <p className="item-label">{ item.name }</p>
     </div>
