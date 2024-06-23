@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Footer from "./components/Footer";
-import "./style.css"
+import "../src/css/style.css"
 
 export const metadata: Metadata = {
   title: "Dragon Tools by AquaLunae",

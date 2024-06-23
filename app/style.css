@@ -1,3 +1,46 @@
+:root {
+    --dark-indigo: #1F2659;
+    --indigo: #353576;
+    --iris: #494891;
+    --purple: #7266AF;
+    --lavender: #9A7DCF;
+    --pink: #D392FE;
+    --light-pink: #E3BFFA;
+    --pale-pink: #ECDBFE;
+    --blue: #C0E6F5;
+    --title: 'Milonga';
+    --text: 'Philosopher';
+    --small-radius: 0.25rem;
+    --radius: 0.5rem;
+}
+
+body {
+    background-color: var(--light-pink);
+    color: var(--dark-indigo);
+    font-family: var(--text);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+a {
+    background-color: var(--blue);
+    color: var(--indigo);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.25rem;
+    border-radius: var(--small-radius);
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
 .row {
     width: 100%;
     display: flex;

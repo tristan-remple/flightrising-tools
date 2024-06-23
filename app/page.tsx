@@ -6,7 +6,7 @@ const Landing = () => {
             <h1>AquaLunae's Flight Rising Tools</h1>
             <div className="row">
                 <Link className="tile" href="/coliseum">
-                    <img className="tile-icon" src="coliseum-umbel.png" alt="Some crumbling ruins" />
+                    <img className="tile-icon" src="img/coliseum-umbel.png" alt="Some crumbling ruins" />
                     <h2>Coliseum</h2>
                 </Link>
             </div>

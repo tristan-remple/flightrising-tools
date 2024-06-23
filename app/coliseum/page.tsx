@@ -55,7 +55,7 @@ const QuestionsPage = () => {
                     setError(null)
                 }
             } catch(err) {
-                setError("Data not found.")
+                setError("Data not available.")
             }
         })()
     }, [])
@@ -200,11 +200,24 @@ const QuestionsPage = () => {
         </select>
     </>
 
+    const [ advanced, setAdvanced ] = useState(false)
+    const advancedHandler = () => {
+        const newAdvanced = advanced ? false : true
+        setAdvanced(newAdvanced)
+    }
+
     const [ picky, setPicky ] = useState(false)
     const pickyHandler = () => {
         const newPicky = picky ? false : true
         setPicky(newPicky)
     }
+
+    const displayAdvanced = <div className="box wide">
+        <h2>Advanced Options</h2>
+        <label htmlFor="picky">Only show venues that match <strong>all</strong> criteria.</label>
+        <input type="checkbox" name="picky" onChange={ pickyHandler } />
+        <div className="btn" onClick={ advancedHandler } >Hide Advanced Options</div>
+    </div>
 
     // ---APPLY OPTIONS
     // when the goals dropdowns are changed, update the list of venues
@@ -325,12 +338,8 @@ const QuestionsPage = () => {
     return error ? <p>{ error }</p> : (
         <main>
             <h1>Coliseum Grinding Guide</h1>
-            <div className="box">
-                <h2>Advanced Options</h2>
-                <label htmlFor="picky">Only show venues that match all criteria.</label>
-                <input type="checkbox" name="picky" onChange={ pickyHandler } />
-            </div>
-            <div className="box">
+            { advanced ? displayAdvanced : <div className="btn" onClick={ advancedHandler } >Show Advanced Options</div> }
+            <div className="box wide">
                 <p>
                     The first thing you need to start grinding in the Coliseum is select a venue. There are a lot of them, so let's narrow down your priorities.
                 </p>
@@ -356,7 +365,8 @@ const QuestionsPage = () => {
             </div>
             <div className="row">
                 { filteredVenueList.map(venue => {
-                    return <Link className="card" href={ `/${ venue.title }` } key={ venue.title }>
+                    return <Link className="tile" href={ `/coliseum/${ venue.title }` } key={ venue.title }>
+                        <img src={ `img/${ venue.title } Day.png` } className="tile-icon" />
                         <h3>{ venue.title }</h3>
                     </Link>
                 })}

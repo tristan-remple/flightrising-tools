@@ -36,8 +36,8 @@ export const festivals = {
 }
 
 export enum Food {
-    plant = "Plants",
-    seafood = "Seafood",
-    insect = "Insects",
-    meat = "Meat"
+    plant = "plant",
+    seafood = "seafood",
+    insect = "insect",
+    meat = "meat"
 }
